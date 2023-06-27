@@ -1,11 +1,11 @@
 # RS-SUM
-##ADOPTING SELF-SUPERVISED LEARNING INTO UNSUPERVISED VIDEO SUMMARIZATION THROUGH RESTORATIVE SCORE
+## ADOPTING SELF-SUPERVISED LEARNING INTO UNSUPERVISED VIDEO SUMMARIZATION THROUGH RESTORATIVE SCORE
 This repository contains the code implementation of RS-SUM, a method described in the paper "Adopting Self-Supervised Learning into Unsupervised Video Summarization through Restorative Score." The paper has been accepted to IEEE ICIP 2023.
 
-##Introduction
+## Introduction
 RS-SUM is a novel approach to unsupervised video summarization that leverages self-supervised learning and restorative score. It aims to automatically generate concise summaries from unannotated videos without the need for manual supervision. The method incorporates self-supervised learning techniques to learn meaningful representations from video data, which are then used to calculate a restorative score for each frame. Frames with high restorative scores are selected to construct the final video summary.
 
-##Usage
+## Usage
 To run the code, follow the instructions below:
 
 Set the --video_type parameter to either "SumMe" or "TVSum" based on the video dataset you want to use.
@@ -31,7 +31,7 @@ Run compute_fscore.py to calculate the F-score.
 ```bash
 python compute_fscore.py
 ```
-##Citation
+## Citation
 If you use RS-SUM or find it helpful in your research, please consider citing our paper:
 
 ```bibtex
